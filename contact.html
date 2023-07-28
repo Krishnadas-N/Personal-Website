@@ -165,7 +165,8 @@ Author URL: http://w3layouts.com
 
                 </div>
                 <div class="col-lg-7 mt-lg-0 mt-md-5 mt-4">
-                    <form id="submit-form" action="" >
+                    <form  action="https://formspree.io/f/myyqkgba"
+                    method="POST" >
                         <div class="twice-two">
                             <input type="text" class="form-control" name="name" id="fname" placeholder="Name"
                                 required="">
@@ -173,15 +174,16 @@ Author URL: http://w3layouts.com
                                 required="" vaildate>
                         </div>
                         <div class="twice">
-                            <input type="text" class="form-control" name="message" id="subject"
+                            <input type="text" name="subject" class="form-control"  id="subject"
                                 placeholder="Subject" required="">
                         </div>
-                        <textarea name="Message" class="form-control" id="Message" placeholder="Message"
+                        <textarea name="message" class="form-control" id="Message" placeholder="Message"
                             required=""></textarea>
                         <div class="text-right">
                             <button type="submit" class="btn btn-secondary btn-style mt-4">Send Message</button>
                         </div>
                     </form>
+                    <!--
                     <script>
                       $("#submit-form").submit((e)=>{
                           e.preventDefault()
@@ -200,7 +202,7 @@ Author URL: http://w3layouts.com
                               }
                           })
                       })
-                  </script>
+                  </script>  -->
                 </div>
                 
             </div>

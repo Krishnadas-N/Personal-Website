@@ -421,7 +421,7 @@
         </div>
     </div>
 </section>
-<!-- //home page about section -->
+
 
 <!-- home page about section 
 <section class="w3l-homeblock3" id="clients">
@@ -510,29 +510,24 @@
 
                 </div>
                 <div class="col-lg-7 mt-lg-0 mt-md-5 mt-4">
-                    <form action=""  role="form"  id="submit-form" >
+                    <form action="https://formspree.io/f/myyqkgba"
+                    method="POST" >
                         <div class="twice-two">
-                            <input type="text" class="form-control" name="name"  id="name" onkeyup="validate()"
-                            onkeypress="return (event.charCode > 64 && 
-                  event.charCode < 91) || (event.charCode > 96 && event.charCode < 123)" placeholder="Name"
+                            <input type="text" class="form-control" name="name"  id="name" placeholder="Name"
                                 required="">
-                            <input type="email" class="form-control" name="email" id="email" onkeyup="validateem()" placeholder="Email"
+                            <input type="email" class="form-control" name="email" id="email"  placeholder="Email"
                                 required="">
                         </div>
                         <div class="twice">
-                            <input type="text" class="form-control" name="subject" id="subject" onkeyup="validatesub()"
+                            <input type="text" class="form-control" name="subject" id="subject" 
                                 placeholder="Subject" required="">
                         </div>
-                        <textarea name="message" rows="10" onkeyup="validatemsg()" id="message" class="form-control" placeholder="Message"
+                        <textarea name="message" rows="10"  id="message" class="form-control" placeholder="Message"
                             required=""></textarea>
                         <div class="text-right">
-                            <button type="submit" onclick="send()" class="btn btn-secondary btn-style mt-4">Send Message</button>
+                            <button type="submit"  class="btn btn-secondary btn-style mt-4">Send Message</button>
                         </div>
-                        <div class="my-3">
-                          <div class="loading" id="load">Loading</div>
-                          <div class="error-message" id="error"></div>
-                          <div class="sent-message" id="send"></div>
-                        </div>
+                        
                     </form>
                 <!--
                     <script>
@@ -766,7 +761,7 @@
 <!-- bootstrap -->
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/script.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 
 </body>
 
